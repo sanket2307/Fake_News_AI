@@ -12,3 +12,9 @@ import nltk
 
 train = pd.read_csv('train.csv')
 test = pd.read_csv('test.csv')
+
+print(train.shape, test.shape)
+
+print(train.isnull().sum())
+print(test.isnull().sum())
+print(train.head(2))
